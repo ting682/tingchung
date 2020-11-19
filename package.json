@@ -49,7 +49,6 @@
     "yarn": "1.22.5"
   },
   "optionalDependencies": {
-    "fsevents": "2.2.1",
-    "fsevents": "1.2.13"
+    "fsevents": "^1.0.0"
   }
 }
