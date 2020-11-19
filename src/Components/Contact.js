@@ -1,6 +1,47 @@
 import React, { Component } from 'react';
+import emailjs from 'emailjs-com';
 
 class Contact extends Component {
+
+   constructor(props) {
+      super(props)
+      this.state = {
+         contactName: '',
+         contactEmail: '',
+         contactSubject: '',
+         contactMessage: ''
+      }
+
+      this.sendEmail = this.sendEmail.bind(this)
+   }
+
+   sendEmail(e) {
+      e.preventDefault();
+  
+      emailjs.sendForm('service_gpm7vva', 'template_jlmg08s', e.target, 'user_IVYbb3zq4ybVNXdN0KuC7')
+        .then((result) => {
+            console.log(result.text);
+        }, (error) => {
+            console.log(error.text);
+        });
+
+      this.setState({
+         contactName: '',
+         contactEmail: '',
+         contactSubject: '',
+         contactMessage: ''
+      })
+    }
+
+    handleChange = (event) => {
+       this.setState(previousState => {
+          return {
+            ...previousState,
+            [event.target.name]: event.target.value
+          }
+       })
+    }
+
   render() {
 
     if(this.props.data){
@@ -13,6 +54,8 @@ class Contact extends Component {
       var email = this.props.data.email;
       var message = this.props.data.contactmessage;
     }
+
+    
 
     return (
       <section id="contact">
@@ -36,27 +79,27 @@ class Contact extends Component {
          <div className="row">
             <div className="eight columns">
 
-               <form action="" method="post" id="contactForm" name="contactForm">
-					<fieldset>
+               <form onSubmit={this.sendEmail}>
+					
 
                   <div>
 						   <label htmlFor="contactName">Name <span className="required">*</span></label>
-						   <input type="text" defaultValue="" size="35" id="contactName" name="contactName" onChange={this.handleChange}/>
+						   <input type="text" defaultValue="" size="35" id="contactName" name="contactName" onChange={this.handleChange} value={this.state.contactName}/>
                   </div>
 
                   <div>
 						   <label htmlFor="contactEmail">Email <span className="required">*</span></label>
-						   <input type="text" defaultValue="" size="35" id="contactEmail" name="contactEmail" onChange={this.handleChange}/>
+						   <input type="text" defaultValue="" size="35" id="contactEmail" name="contactEmail" onChange={this.handleChange} value={this.state.contactEmail} />
                   </div>
 
                   <div>
 						   <label htmlFor="contactSubject">Subject</label>
-						   <input type="text" defaultValue="" size="35" id="contactSubject" name="contactSubject" onChange={this.handleChange}/>
+						   <input type="text" defaultValue="" size="35" id="contactSubject" name="contactSubject" onChange={this.handleChange} value={this.state.contactSubject} />
                   </div>
 
                   <div>
                      <label htmlFor="contactMessage">Message <span className="required">*</span></label>
-                     <textarea cols="50" rows="15" id="contactMessage" name="contactMessage"></textarea>
+                     <textarea cols="50" rows="15" id="contactMessage" name="contactMessage" onChange={this.handleChange} value={this.state.contactMessage}></textarea>
                   </div>
 
                   <div>
@@ -65,7 +108,7 @@ class Contact extends Component {
                         <img alt="" src="images/loader.gif" />
                      </span>
                   </div>
-					</fieldset>
+					
 				   </form>
 
            <div id="message-warning"> Error boy</div>
