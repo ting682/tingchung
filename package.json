@@ -45,10 +45,10 @@
   },
   "engines": {
     "node": ">= 6.0.0",
-    "npm": ">= 3.0.0",
+    "npm": ">= 7.0.8",
     "yarn": "1.22.5"
   },
   "optionalDependencies": {
-    "fsevents": ">= 1.0.0"
+    "fsevents": "2.1.2"
   }
 }
