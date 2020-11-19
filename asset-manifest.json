@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/tingchung/static/css/main.bab0b925.chunk.css",
+    "main.js": "/tingchung/static/js/main.29e008cc.chunk.js",
+    "main.js.map": "/tingchung/static/js/main.29e008cc.chunk.js.map",
+    "runtime-main.js": "/tingchung/static/js/runtime-main.e5a25741.js",
+    "runtime-main.js.map": "/tingchung/static/js/runtime-main.e5a25741.js.map",
+    "static/js/2.deea4906.chunk.js": "/tingchung/static/js/2.deea4906.chunk.js",
+    "static/js/2.deea4906.chunk.js.map": "/tingchung/static/js/2.deea4906.chunk.js.map",
+    "index.html": "/tingchung/index.html",
+    "static/css/main.bab0b925.chunk.css.map": "/tingchung/static/css/main.bab0b925.chunk.css.map",
+    "static/js/2.deea4906.chunk.js.LICENSE.txt": "/tingchung/static/js/2.deea4906.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e5a25741.js",
+    "static/js/2.deea4906.chunk.js",
+    "static/css/main.bab0b925.chunk.css",
+    "static/js/main.29e008cc.chunk.js"
+  ]
+}
