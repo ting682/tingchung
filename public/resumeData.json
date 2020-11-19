@@ -79,15 +79,11 @@
     "skills":[
       {
         "name":"Git",
-        "level":"60%"
-      },
-      {
-        "name":"Illustrator",
-        "level":"55%"
+        "level":"70%"
       },
       {
         "name":"ReactJs",
-        "level":"50%"
+        "level":"60%"
       },
       {
         "name":"CSS",
@@ -98,12 +94,12 @@
         "level":"80%"
       },
       {
-        "name":"VueJs",
-        "level":"50%"
+        "name":"Javascript",
+        "level":"70%"
       },
       {
-        "name":"MongoDB",
-        "level":"80%"
+        "name":"PostgreSQL",
+        "level":"65%"
       }
     ]
   },
