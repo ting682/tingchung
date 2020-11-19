@@ -44,30 +44,36 @@
     "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
     "education":[
       {
-        "school":"University?",
-        "degree":"Masters in Beer tasting",
-        "graduated":"April 2007",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school":"Flatiron School",
+        "degree":"Full-stack web development",
+        "graduated":"December 2020",
+        "description":"Developed software development skills using Ruby, Ruby on Rails, Javascript, and React. Used languages and web frameworks to develop projects."
       },
       {
-        "school":"School #1 Maybe College?",
-        "degree":"What did you study 101",
-        "graduated":"March 2003",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school":"Georgia Tech",
+        "degree":"Electrical engineering",
+        "graduated":"June 2007",
+        "description":"Developed electronic design skills and learned hardware principles. Skilled in C++ for micro-controller unit designs. Matlab for digital signal processing."
       }
     ],
     "work":[
       {
-        "company":"Awesome Design Studio",
-        "title":"Senior UX God ",
-        "years":"March 2010 - Present",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company":"Gulfstream Aerospace Corporation",
+        "title":"Technical Specialist I",
+        "years":"May 2012 - May 2020",
+        "description":"Implemented electrical design solutions for brakes, landing gear, hydraulics, and doors systems. Investigated and resolved flight test and lab issues through troubleshooting and integration testing. Developed validation and verification for brake control system requirements."
       },
       {
-        "company":"Super Cool Studio",
-        "title":"Junior bug fixer",
-        "years":"March 2007 - February 2010",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company":"Gulfstream Aerospace Corporation",
+        "title":"Service Center Coordinator",
+        "years":"September 2010 - May 2012",
+        "description":"Co-manager of Chinese aircraft maintenance visits. Created and maintained work scope and project accomplishments. Chartered and monitored customer invoices."
+      },
+      {
+        "company":"Universal Avionics Systems Corporation",
+        "title":"Electrical Engineer",
+        "years":"August 2008 - September 2010",
+        "description":"Developed electronic hardware for line replaceable units including analog and digital circuitry, A429 ICs, LED drivers, analog-to-digital and digital-to-analog converters, and amplifiers. Designed circuit simulation models for analysis. Performed electromagnetic interference susceptibility testing."
       }
     ],
     "skills":[
