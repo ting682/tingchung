@@ -41,7 +41,7 @@
     ]
   },
   "resume":{
-    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
+    "skillmessage":"This is a list of my web development skills.",
     "education":[
       {
         "school":"Flatiron School",
@@ -78,28 +78,28 @@
     ],
     "skills":[
       {
-        "name":"Git",
+        "name":"Ruby",
+        "level":"75%"
+      },
+      {
+        "name":"Ruby on Rails",
         "level":"70%"
-      },
-      {
-        "name":"ReactJs",
-        "level":"60%"
-      },
-      {
-        "name":"CSS",
-        "level":"90%"
-      },
-      {
-        "name":"HTML5",
-        "level":"80%"
       },
       {
         "name":"Javascript",
         "level":"70%"
       },
       {
-        "name":"PostgreSQL",
+        "name":"HTML5",
+        "level":"80%"
+      },
+      {
+        "name":"ReactJS",
         "level":"65%"
+      },
+      {
+        "name":"PostgreSQL",
+        "level":"70%"
       }
     ]
   },
