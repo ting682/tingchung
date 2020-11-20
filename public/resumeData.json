@@ -102,19 +102,19 @@
     "projects": [
       {
         "title":"Small groups",
-        "category":"This web app is built using Javascript and Rails API. This app is made for a user to submit bible study topics. The bible study topics can be revised via rich text format via Quill editor. A user can post the bible topic, add bible passages, and add comments to bible topics. For the frontend, this contains the classes that mirror the models for the backend for the user, topics, comments, and passages. This app uses CORS to communicate to the front end. Also, the authenticity of the posts are verified with JSON web tokens. The output of the JSON uses JSON fast API to serialize the data that is fetched.",
+        "category":"Utilized JSON Web Tokens and localStorage to store encrypted user information client-side. Performs fetch requests to Rails API backend using postgreSQL database. Rails API outputs ActiveRecord objects via JSON serializer. Used object oriented Javascript classes to encapsulate behavior which results in separation of concerns design pattern. Implemented Quill rich text editor to allow users to submit photos and videos along with blog.",
         "image":"http://img.youtube.com/vi/gzb9VecaUb0/0.jpg",
         "url":"https://smallgroups.netlify.app/"
       },
       {
         "title":"Prayer gathering",
-        "category":"This is a Ruby on Rails app that is intended for a user to host a prayer gathering. This app includes validations for time and prayers to be submitted for the prayer gathering. The models use a many to many relationship for prayers and gatherings. Each gathering contains a meetup time that is validated with time zones and contains form fields for addresses which are stored in the postgreSQL database.",
+        "category":"Utilized model-view-controller design pattern resulting in separation of concerns. Validated login and event data by creating Rails validation models to ensure persisted data validity. Established ActiveRecord many-to-many associations to create join table resulting in object relational mapping of data persisted to postgreSQL database. Encrypted user login data persisting salted and hashed password in postgreSQL database",
         "image":"http://img.youtube.com/vi/6oR-F2Y6AvA/0.jpg",
         "url":"https://prayergathering.herokuapp.com/"
       },
       {
         "title":"Prayer Journal",
-        "category":"This web app is used to create a journal for users to log in every day. This web app also contains a prayer wall so users can contribute prayers that they want everyone to pray for. ",
+        "category":"Persisted user’s journal entries using ActiveRecord one-to-many associations to postgreSQL database. Allows users to signup and login to the web application. Utilized model-view-controller design pattern for object relational mapping. Encrypted user login data persisting salted and hashed password in postgreSQL database. Used ActiveRecord model to validate user and journal entry data.",
         "image":"http://img.youtube.com/vi/zZKlddr2upE/0.jpg",
         "url":"https://prayerjournals.herokuapp.com/"
       }
