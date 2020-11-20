@@ -42,10 +42,10 @@
         "school":"Flatiron School",
         "degree":"Full-stack web development",
         "graduated":"projected to finish December 2020",
-        "description":"Developed software development skills using Ruby, Ruby on Rails, Javascript, and React. Used languages and web frameworks to develop projects."
+        "description":"Developed software development skills using Ruby, Ruby on Rails, Javascript, React, and Sinatra. Used languages and web frameworks to develop projects."
       },
       {
-        "school":"Georgia Tech",
+        "school":"Georgia Institute of Technology",
         "degree":"Electrical engineering",
         "graduated":"June 2007",
         "description":"Developed electronic design skills and learned hardware principles. Skilled in C++ for micro-controller unit designs. Matlab for digital signal processing."
