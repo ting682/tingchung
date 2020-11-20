@@ -31,11 +31,6 @@
         "name":"linkedin",
         "url":"https://www.linkedin.com/in/ting-chung-92544b9/",
         "className":"fab fa-linkedin"
-      },
-      {
-        "name":"google-plus",
-        "url":"http://googleplus.com/tbakerx",
-        "className":"fa fa-google-plus"
       }
       
     ]
