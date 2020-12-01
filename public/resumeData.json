@@ -2,7 +2,7 @@
   "main": {
     "name":"Ting Chung",
     "occupation":"aspiring software engineer",
-    "description":"I am currently a Flatiron school student studying full-stack web development with a strong background designing, integrating, troubleshooting, and documenting in aircraft systems engineering",
+    "description":"I am currently a Flatiron school student studying full-stack web development with a strong background designing, integrating, testing, troubleshooting, and documenting in aircraft systems engineering",
     "image":"profilepic.jpg",
     "bio":"I am a Flatiron student studying full-stack web development. I was previously an aircraft systems engineer and now looking for a full-time position as a software developer.",
     "contactmessage":"If you would like more information, please contact me using the form below.",
