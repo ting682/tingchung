@@ -109,7 +109,7 @@
       },
       { 
         "title":"Susie Wang Art",
-        "category": "React user interface allows admin to perform CRUD actions on art products with descriptions and pricing. Built with Google Firebase platform which uses Real-time NoSQL database to store art products, descriptions, and pricing. Stores art product images via Google Cloud storage. Utilized Google Cloud Functions composed in NodeJS to perform e-commerce payments and shopping cart actions. Managed application state including art products and shopping cart line items via Redux store.",
+        "category": "React user interface allows admin to perform CRUD actions on art products with descriptions and pricing. Built with Google Firebase platform which uses Real-time NoSQL database to store art products, descriptions, and pricing. Stores art product images via Google Cloud storage. Utilized Google Cloud Functions composed in NodeJS to perform e-commerce payments and shopping cart actions. Managed application state including art products and shopping cart line items via Redux store. Deployed Cloud Function real-time database triggers for order email confirmation.",
         "image": "https://firebasestorage.googleapis.com/v0/b/susie-wang-art.appspot.com/o/logo%2Fsusie_wang_art_logo.png?alt=media&token=780fecd0-0bdd-48f6-997a-442085a2543d",
         "url": "https://susiewang.art",
         "github": "https://github.com/ting682/susie-art"
