@@ -102,10 +102,17 @@
     "projects": [
       { 
         "title":"Prayer journal",
-        "category": "Interactive React user interface allows a user to perform CRUD actions and updates instantly to web the application. Client-side routing performed to allow access to nested routes via React Router. Utilizes http-only cookies to store JSON web token encrypted user information client-side. Stores application state via Redux store allowing universal source of truth. Posts entries, comments, and likes via redux-thunk to Rails API using postgreSQL database.",
+        "category": "Interactive React user interface allows a user to perform CRUD actions and updates instantly to web the application. Client-side routing performed to allow access to nested routes via React Router. Utilizes http-only cookies to store JSON web token encrypted user information client-side. Stores application state via Redux store allowing universal source of truth. Posts entries, comments, and likes via redux-thunk to Rails API using postgreSQL database. Stores user profile images via AWS S3 bucket.",
         "image": "https://img.youtube.com/vi/DekNKan0DbA/0.jpg",
         "url": "https://prayerjournal.place",
         "github": "https://github.com/ting682/prayerjournal-frontend"
+      },
+      { 
+        "title":"Susie Wang Art",
+        "category": "React user interface allows admin to perform CRUD actions on art. Built with Google Firebase platform which uses Real-time NoSQL database to store art products. Stores art product images via Google Cloud storage. Google Cloud Functions composed in NodeJS to perform e-commerce payments and shopping cart actions.",
+        "image": "https://firebasestorage.googleapis.com/v0/b/susie-wang-art.appspot.com/o/logo%2Fsusie_wang_art_logo.png?alt=media&token=780fecd0-0bdd-48f6-997a-442085a2543d",
+        "url": "https://susiewang.art",
+        "github": "https://github.com/ting682/susie-art"
       },
       {
         "title":"Small groups",
